@@ -1,0 +1,55 @@
+h4 { color: #fc00da;
+background: rgb(229, 255, 0);
+margin: 20px;
+padding: 20px 30px;
+border: 5px solid;
+border-radius: 70px;
+}
+
+/* *.{ 
+    margin: auto;
+} */
+.box
+{background-color: green;
+height: 500px;
+width: 1500px;
+position: relative;
+}
+ .circle
+ { background:red;
+height: 150px;
+width: 150px;
+border-radius: 50%;
+position: relative;
+top: 34%;
+left: 650px;
+transform:(-50%,-50%) ;
+ }
+ 
+/* *.{ */
+/* margin: 0;} */
+ /* .header */
+ 
+
+ 
+ /* .container{} */
+
+ .logo
+ {background: red;
+height: 100px;
+width:50% ;
+float: left;
+ }
+
+ .menu
+ {background: rgb(19, 223, 107);
+height:100px;
+width: 50%;
+float: left;
+}
+
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: lightblue;
+  }
+}
